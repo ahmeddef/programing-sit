@@ -1,0 +1,115 @@
+
+.upper_header{
+    width: 100%;
+    z-index: index 100;
+    
+}
+nav.lower_header{
+    width: 100%; 
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.head_p img{
+   width: 250px;
+height: 35px;
+}
+details > summary{
+    list-style: none;
+}
+.div_logo{
+    padding-top:0.5%;
+}
+.logo{
+
+    margin-left:10px;
+    width: 30px;
+}
+.lower_header div>div .aria_search{
+    width: 50%;
+}
+ul{
+    list-style: none;
+}
+.panel_singin{
+    background-color: skyblue;
+   
+}
+.panel_singin nav>form>input.login{
+    color: whitesmoke ;
+    background-color: #003459;
+}
+.panel_singin nav>form>input.login:hover{
+    background-color: whitesmoke ;
+    color: #003459;
+}
+.panel_singin nav>form>input{
+    margin: 1px;
+}
+div > span.login{
+   
+    
+    color: whitesmoke ;
+    background-color: skyblue;
+}
+span.login:hover{
+    background-color: #00345a ;
+    color: whitesmoke;
+}
+button.search_bn{
+    color: whitesmoke ;
+    background-color: skyblue;
+}
+button.search_bn:hover{
+    background-color: #00345a ;
+    color: whitesmoke;
+}
+.navpar{
+    background-color: #00a8e8;
+   height:55px;
+}
+
+nav>div>div>ul>li>a{
+     color:#003459 !important;
+    text-align:center;
+
+}
+.navpar>div>div>ul>li>a:hover{
+
+    background-color: #0272c3 ;
+    color: wheat !important; 
+}
+.navpar>div>div>ul>:hover{
+    background-color: #0272c3 !important;
+    
+}
+/* finsh the header */
+/* start slider */
+.cord:hover{
+    color: white;
+    background-color: #0272c3;
+}
+.media{
+    text-align: center;
+}
+.upper_header .nav_log form{
+    width:auto; 
+    margin:auto;
+}
+.dady form{
+    margin-top: 50px;
+    align-items: center;
+    width:auto;
+  }
+  .dady form>div{
+    padding: 10px;
+  }
+.dady form>div .creat{
+    background-color: #003459;
+    color: white;
+  }
+  .dady form>div .creat:hover{
+    background-color: whitesmoke ;
+    color: #003459;
+    
+  }
