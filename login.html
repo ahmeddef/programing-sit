@@ -16,14 +16,25 @@
     <link rel="icon" href="logo.png">
     <title>login</title>
 
+    <style>
+      #intro {
+        background-image: url("./login.jpg");
+        height: 100vh;
+      }
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -3px;
+        }
+      }
+    </style>
 
 
 </head>
-<body>
+<body id="intro">
   <div class="container-fluid panel_singin upper_header">
 <nav class="navbar navbar-expand-lg row nav_log">
-    <a class="col-2 div_logo d-inline-flex p-2" href="index.html" > <img src="logo.png" alt="" class="logo"> </a>
-  <!-- <div class="col-2 div_logo d-inline-flex p-2"><img src="logo.png" alt="" class="logo"> </div>  -->
+    <a class="col div_logo d-inline-flex p-2" href="index.html" > <img src="logo.png" alt="" class="logo"> </a>
+    <p class="col head_p d-inline-flex"><img src="title.png" alt=""></p>
   
   <form action="login" class="d-flex justify-item-center col-5" >
     
@@ -37,7 +48,7 @@
 </div>
 
 
-<div class=" dady container d-flex justify-content-center">
+<div class=" dady container d-flex justify-content-center" style="height: max-content;">
   
 <form action="rgester" >
 <div class="d-flex justify-content-between">
